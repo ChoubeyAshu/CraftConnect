@@ -11,7 +11,7 @@ import { CartProvider } from './Constants/Values/CartContext.jsx';
 function App() {
   return (
     <CartProvider>
-      <Router basename="/rural_commerce">
+      <Router>
         <div className="App">
           <Routes>
             <Route path="/" element={<Home />} />
