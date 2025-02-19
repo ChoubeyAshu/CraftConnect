@@ -18,18 +18,15 @@ function Navbar() {
       <div className="w-full flex justify-between items-center relative ">
         {/* Logo */}
         <Link to="/" className="flex">
-          <h1
-            className="text-green-800 font-extrabold font-9xl font-stretch-expanded"
-          >
+          <h1 className="text-green-800 font-extrabold font-9xl font-stretch-expanded">
             CRAFT
           </h1>
           <h1 className="pl-2">CONNECT</h1>
         </Link>
 
-
         {/* Navigation Links */}
         <div className="hidden md:flex flex-grow justify-center space-x-6">
-          <Link to="/" className="hover:text-orangeMain">
+          <Link to="/rural_commerce" className="hover:text-orangeMain">
             Home
           </Link>
           <Link to="/products" className=" hover:text-orangeMain">

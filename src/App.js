@@ -14,13 +14,13 @@ function App() {
       <Router>
         <div className="App">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/rural_commerce" element={<Home />} />
             <Route path="/register" element={<Register />} />
             <Route path="/products" element={<ProductListing />} />
             <Route path="/orders" element={<OrderManagement />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path='/products/:category' element={<ItemListing/>}/>
-            <Route path='/cart' element={<CartPage/>} />
+            <Route path="/products/:category" element={<ItemListing />} />
+            <Route path="/cart" element={<CartPage />} />
           </Routes>
         </div>
       </Router>
