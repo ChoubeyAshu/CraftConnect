@@ -11,7 +11,7 @@ function PageNavbar({ className }) {
     <nav className={`p-4 text-gray-900 shadow-md`}>
       <div className={`w-full flex justify-between items-center relative z-50`}>
         {/* Logo */}
-        <Link to="/" className="flex">
+        <Link to="/rural_commerce" className="flex">
           <h1
             className="text-green-800 font-extrabold font-5xl font-stretch-expanded"
           >
