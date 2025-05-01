@@ -2,7 +2,6 @@
   "name": "rural_comerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://badu01.github.io/rural_commerce",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.17.0",
